@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import SQLAlchemyError
 
-from src.conf.config import settings
+from api.conf.config import settings
 
 
 url = settings.sqlalchemy_database_url
